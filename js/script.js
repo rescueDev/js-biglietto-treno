@@ -15,10 +15,10 @@ console.log(askKm, askAge);
     var ticketPrice = (askKm * 0.21);
 
     //calcolo biglietto con sconto 20%
-    var discount20 = (ticketPrice - (ticketPrice * 0.2));
+    var discount20 = (ticketPrice - (ticketPrice * 0.2)).toFixed(2);
 
     //calcolo biglietto con sconto 40%
-    var discount40 = (ticketPrice - (ticketPrice * 0.4));
+    var discount40 = (ticketPrice - (ticketPrice * 0.4)).toFixed(2);
 
 console.log(ticketPrice, discount20, discount40);
 
