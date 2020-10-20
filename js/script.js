@@ -27,7 +27,7 @@ console.log(ticketPrice, discount20, discount40);
 // stabilire il costo biglietto e se spetta lo sconto
 if (askAge < 18) {
 //prezzo con sconto underAged
-    document.getElementById("prezzo-biglietto").innerHTML = "Il totale del biglietto con lo sconto minorenni è di" + discount20 + " euro";
+    document.getElementById("prezzo-biglietto").innerHTML = "Il totale del biglietto con lo sconto minorenni è di " + discount20 + " euro";
 }
 else if (askAge > 65) {
 //sconto over65 
